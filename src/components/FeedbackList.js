@@ -1,4 +1,5 @@
 import React from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import PropTypes from "prop-types";
 import FeedbackItem from "./FeedbackItem";
 
@@ -7,17 +8,39 @@ const FeedbackList = ({ feedback, handleDelete }) => {
     if (!feedback || feedback.length === 0) {
         return <p>No feedback yet</p>;
     }
+
     return (
         <div className="feedback-list">
-            {feedback.map((feed) => (
-                <FeedbackItem
-                    feed={feed}
-                    key={feed.id}
-                    handleDelete={handleDelete}
-                />
-            ))}
+            <AnimatePresence>
+                {feedback.map((feed) => (
+                    <motion.div
+                        key={feed.id}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                    >
+                        <FeedbackItem
+                            feed={feed}
+                            key={feed.id}
+                            handleDelete={handleDelete}
+                        />
+                    </motion.div>
+                ))}
+            </AnimatePresence>
         </div>
     );
+
+    // return (
+    //     <div className="feedback-list">
+    //         {feedback.map((feed) => (
+    //             <FeedbackItem
+    //                 feed={feed}
+    //                 key={feed.id}
+    //                 handleDelete={handleDelete}
+    //             />
+    //         ))}
+    //     </div>
+    // );
 };
 FeedbackList.propTypes = {
     feedback: PropTypes.arrayOf(
