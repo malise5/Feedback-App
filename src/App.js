@@ -1,10 +1,12 @@
-import "./App.css";
+import { Route, Routes } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import { useState } from "react";
 import Header from "./components/Header";
 import FeedbackList from "./components/FeedbackList";
 import FeedbackStats from "./components/FeedbackStats";
 import FeedbackForm from "./components/FeedbackForm";
+import { AboutIcon } from "./components/AboutIcon";
+import About from "./pages/About";
 import feeds from "./data";
 
 function App() {
@@ -26,9 +28,25 @@ function App() {
         <>
             <Header />
             <div className="container">
-                <FeedbackForm handleAdd={handleAdd} />
-                <FeedbackStats feedback={feedback} />
-                <FeedbackList feedback={feedback} handleDelete={handleDelete} />
+                <Routes>
+                    <Route
+                        exact
+                        path="/"
+                        element={
+                            <>
+                                <FeedbackForm handleAdd={handleAdd} />
+                                <FeedbackStats feedback={feedback} />
+                                <FeedbackList
+                                    feedback={feedback}
+                                    handleDelete={handleDelete}
+                                />
+                                <AboutIcon />
+                            </>
+                        }
+                    ></Route>
+
+                    <Route path="/about" element={<About />} />
+                </Routes>
             </div>
         </>
     );
