@@ -1,10 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
         <header>
             <div className="container">
-                <h2>Feedback Ui</h2>
+                <Link to="/">
+                    <h2>Feedback Ui</h2>
+                </Link>
             </div>
         </header>
     );
