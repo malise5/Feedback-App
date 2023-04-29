@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+<br/>
+<p align="center">
+  <a href="https://github.com/malise5/Feedback-App">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Feedback App</h3>
 
-## Available Scripts
+  <p align="center">
+    This is a simple Feedback App built with React. Users can leave feedback, and view their feedback history.
+    <br/>
+    <br/>
+    <a href="https://github.com/malise5/Feedback-App">View Demo</a>
+    .
+    <a href="https://github.com/malise5/Feedback-App/issues">Report Bug</a>
+    .
+    <a href="https://github.com/malise5/Feedback-App/issues">Request Feature</a>
+  </p>
+</p>
 
-In the project directory, you can run:
+![Downloads](https://img.shields.io/github/downloads/malise5/Feedback-App/total) ![Contributors](https://img.shields.io/github/contributors/malise5/Feedback-App?color=dark-green) ![Forks](https://img.shields.io/github/forks/malise5/Feedback-App?style=social) ![Stargazers](https://img.shields.io/github/stars/malise5/Feedback-App?style=social) ![Issues](https://img.shields.io/github/issues/malise5/Feedback-App) ![License](https://img.shields.io/github/license/malise5/Feedback-App)
 
-### `npm start`
+## Table Of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   [About the Project](#about-the-project)
+-   [Built With](#built-with)
+-   [Getting Started](#getting-started)
+    -   [Prerequisites](#prerequisites)
+    -   [Installation](#installation)
+-   [Usage](#usage)
+-   [Roadmap](#roadmap)
+-   [Contributing](#contributing)
+-   [License](#license)
+-   [Authors](#authors)
+-   [Acknowledgements](#acknowledgements)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+![Screen Shot](https://ibb.co/X4tJ1bc)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Feedback App is a web application that allows users to leave feedback and view their feedback history. The app was created with React and Firebase, and is designed to be simple and easy to use.
 
-### `npm run build`
+Features
+User authentication: Users can create an account and log in to the app using their email and password.
+Feedback submission: Users can leave feedback by filling out a form with rating and feedback message.
+Responsive design: The app is designed to be mobile-friendly and responsive across a range of screen sizes.
+Technologies Used
+The Feedback App was built with the following technologies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Feedback App was built with the following technologies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React: A popular JavaScript library for building user interfaces.
+Netlify: A cloud computing company that provides hosting and serverless backend services.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This is an example of how to list things you need to use the software and how to install them.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-   npm
 
-## Learn More
+```sh
+npm install npm@latest -g
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run the app locally, follow these steps:
 
-### Code Splitting
+1. Clone the repository: git clone https://github.com/malise5/Feedback-App.git.
+2. Install dependencies: npm install.
+3. Create a Firebase project and add a web app to it. Copy the Firebase configuration object and replace the placeholders in src/firebase/config.js with your Firebase project's configuration.
+4. Start the app: npm start.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+Once the app is running, you can start leaving feedback.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Roadmap
 
-### Making a Progressive Web App
+See the [open issues](https://github.com/malise5/Feedback-App/issues) for a list of proposed features (and known issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+If you'd like to contribute to the project, feel free to open a pull request. Make sure your code follows the existing code style and that you've tested your changes thoroughly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Creating A Pull Request
 
-### Deployment
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License
 
-### `npm run build` fails to minify
+Distributed under the MIT License. See [LICENSE](https://github.com/malise5/Feedback-App/blob/main/LICENSE.md) for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+
+-   **malise5** - _Telecommunication and Software Engineer_ - [malise5](https://github.com/malise5) - _Founder_
+
+## Acknowledgements
+
+-   [Halkano Malise](https://github.com/malise5)
+-   []()
+-   []()
