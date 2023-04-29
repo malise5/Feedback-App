@@ -41,7 +41,6 @@
 The Feedback App is a web application that allows users to leave feedback and view their feedback history. The app was created with React and Firebase, and is designed to be simple and easy to use.
 
 Features
-User authentication: Users can create an account and log in to the app using their email and password.
 Feedback submission: Users can leave feedback by filling out a form with rating and feedback message.
 Responsive design: The app is designed to be mobile-friendly and responsive across a range of screen sizes.
 Technologies Used
