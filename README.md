@@ -46,6 +46,10 @@ Responsive design: The app is designed to be mobile-friendly and responsive acro
 Technologies Used
 The Feedback App was built with the following technologies:
 
+### Deployment
+
+The app is deployed on Netlify and can be accessed at https://gilded-twilight-6bc440.netlify.app/.
+
 ## Built With
 
 The Feedback App was built with the following technologies:
