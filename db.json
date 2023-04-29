@@ -1,29 +1,24 @@
 {
   "feedback": [
     {
-      "id": 1,
+      "text": "I just wanted to say how impressed I am with your work. Your creativity and problemo the team",
+      "rating": 6,
+      "id": 1
+    },
+    {
+      "text": "Thank you for going above and beyond in your role. Your hard work and positive attitude have not gone unnoticed.",
+      "rating": 6,
+      "id": 2
+    },
+    {
+      "text": "Your leadership skills are impressive, and I'm constantly learning from you. Your ability to inspire and motivate the team is truly inspiring",
       "rating": 10,
-      "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. nim dicta magnam blanditiis possimus excepturi repellendus culpa expedita nisi, porro vero corporis non ipsam aut!"
+      "id": 3
     },
     {
-      "id": 2,
-      "rating": 9,
-      "text": "Lorem ipsum,ipisicing elit. nim dicta magnam blanditiis possimus excepturi repellendus culpa expedita nisi, porro vero corporis non ipsam aut!"
-    },
-    {
-      "id": 3,
-      "rating": 7,
-      "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. dicta magnam blanditiis possimus excepturi repellendus culpa expedita nisi, porro vero corporis non ipsam aut!"
-    },
-    {
-      "rating": 25,
-      "text": "porro vero corporis non ipsam aut!",
+      "text": "Your creativity and out-of-the-box thinking have helped us come up with some amazing solutions. Thank you for your innovative approach.",
+      "rating": 8,
       "id": 4
-    },
-    {
-      "text": "test2 testing2",
-      "rating": 4,
-      "id": 8
     }
   ]
 }

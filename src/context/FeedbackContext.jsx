@@ -46,12 +46,11 @@ export const FeedbackProvider = ({ children }) => {
     };
 
     const handleDelete = async (id) => {
-        if (window.confirm("Are you sure you want to delete?")) {
-            await fetch(`/feedback/${id}`, {
-                method: "DELETE",
-            });
-            setFeedback(feedback.filter((item) => item.id !== id));
-        }
+        // if (window.confirm("Are you sure you want to delete?")) {}
+        await fetch(`/feedback/${id}`, {
+            method: "DELETE",
+        });
+        setFeedback(feedback.filter((item) => item.id !== id));
     };
 
     const updateFeedback = async (id, upFeed) => {
