@@ -72,6 +72,10 @@ This is an example of how to list things you need to use the software and how to
 npm install npm@latest -g
 ```
 
+### Deployment
+
+The app is deployed on Netlify and can be accessed at https://gilded-twilight-6bc440.netlify.app/.
+
 ### Installation
 
 To run the app locally, follow these steps:
