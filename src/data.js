@@ -6,7 +6,7 @@ const feeds = [
     },
     {
         id: 2,
-        rating: 9.5,
+        rating: 5,
         text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam labore quibusdam sed ducimus nobis enim dicta magnam blanditiis possimus excepturi repellendus culpa expedita nisi, porro vero corporis non ipsam aut!",
     },
     {
